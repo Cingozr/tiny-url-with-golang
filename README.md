@@ -26,9 +26,9 @@ Internal
 	
 
  - **database/database.go**
-		 - Veritaban bağlantısını kuran ve db instance veren paket.
+		 - Veritaban bağlantısını ve db instance veren paket.
  - **database/migration.go**
-		 - Veritabanı modellerimizin migration işleminin yapıldığı paket.
+		 - Veritabanı modellerinin migration işleminin yapıldığı paket.
  - **tinyurl/tinyurl.go**
 		 - Url api ve veritabanı arasında CRUD işlemlerini yapan paket.
  - **transport/http/handler.go**
@@ -36,7 +36,7 @@ Internal
  - **transport/http/jwt.go**
 		 - JWT token oluşturma ve validasyon işlemlerinin olduğu paket.
  - **transport/http/middleware.go**
-		 - Birden fazla middleware yazabileceğimiz paket. İçerisinde örnek olsun diye Log middleware eklenildi.
+		 - Birden fazla middleware yazabilecek paket. İçerisinde örnek olsun diye Log middleware eklenildi.
  - **transport/http/tinyurl.go**
 		 - Url endpointlerinin bulunduğu paket.
  - **transport/http/user.go**
